@@ -1,0 +1,51 @@
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+.container {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  margin: 75px auto;
+  box-shadow: 0 0 25px black;
+  border-radius: 25px;
+  text-align: center;
+  padding: 25px;
+  max-width: 100%;
+}
+.main {
+  width: 200px;
+  border: 2px dotted black;
+  border-radius: 50%;
+}
+.title {
+  font-size: 25px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+  width: 200px;
+  margin: auto;
+  padding: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.description {
+  color: rgba(0, 0, 0, 0.7);
+}
+.icon img {
+  width: 25px;
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 15px;
+}
+.main:hover {
+  border-color: brown;
+}
+.title:hover {
+  color: brown;
+}
+.description:hover {
+  color: brown;
+}
+.icon img:hover {
+  background-color: gray;
+}
